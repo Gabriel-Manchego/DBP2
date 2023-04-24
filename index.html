@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+
+<body>
+
+    <div class="form">
+        <form>
+            <label>Experiencia laboral</label>
+            <input  type="text" id="exp">
+            <label>Formacion</label>
+            <input type="text" id="form">
+            <label>Idiomas</label>
+            <input type="text" id="len">
+            <label>Aptitudes y habilidades</label>
+            <input type="text" id="len">
+        
+            <button type="button" onclick="add1()">Submit</button>
+        </form>
+    </div>
+
+    <div id="list"></div>
+
+    <template id="templateProduct">
+        <div>
+            <p>
+                <span></span> <b></b>
+            </p>
+        </div>
+    </template>
+
+</body>
+
+</html>
